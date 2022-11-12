@@ -32,7 +32,7 @@ Strobl, C., Boulesteix, A.-L., Kneib, T., Augustin, T., & Zeileis, A. (2008). Co
 
 ## 3. xgb.train_MrJerryTAO() 
 
-In the latest XGBoost R package, Version 1.6.0.1 by April 2022, the fundamental function xgb.train() does not produce evaluation results of more than one metric although the help document suggests that multiple entries in the eval_metric argument are allowed. However, the function xgb.cv() enables returning multiple evaluation metrics. Therefore, after comparing the source code of these two functions, I altered xgb.train() to form a new function xgbtrain_MrJerryTAO(), which enables returning results of multiple metrics for both training and testing data sets. This function of course requires the intallation of xbgoost R package. 
+In the latest XGBoost R package, Version 1.6.0.1 by April 2022, the fundamental function xgb.train() does not produce evaluation results of more than one metric although the help document suggests that multiple entries in the eval_metric argument are allowed. However, the function xgb.cv() enables returning multiple evaluation metrics. Therefore, after comparing the source code of these two functions, I altered xgb.train() to form a new function xgbtrain_MrJerryTAO(), which enables returning results of multiple metrics for both training and testing data sets. This function of course requires the installation of xbgoost R package. 
 
 Chen, T., He, T., Benesty, M., Khotilovich, V., Tang, Y., Cho, H., Chen, K., Mitchell, R., Cano, I., Zhou, T., Li, M., Xie, J., Lin, M., Geng, Y., Li, Y., Yuan, J., & implementation), Xgb. contributors (base Xgb. (2022). xgboost: Extreme gradient boosting (1.6.0.1). https://CRAN.R-project.org/package=xgboost
 
